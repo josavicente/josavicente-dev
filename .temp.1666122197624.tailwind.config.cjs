@@ -1,21 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-
-const defaultTheme = require('tailwindcss/defaultTheme');
-const colors = require('tailwindcss/colors');
-
 module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
 			colors: {
-				primary: colors.green ,
-				secondary: colors.yellow,
+				primary: colors.blue,
+				secondary: colors.pink,
 			},
 			fontFamily: {
 				sans: ["'InterVariable'", ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
-	// plugins: [require('@tailwindcss/typography')],
+	plugins: [require('@tailwindcss/typography')],
 	darkMode: 'class',
 };
