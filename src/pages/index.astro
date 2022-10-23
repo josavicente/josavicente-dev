@@ -1,8 +1,19 @@
 ---
+
+import { SITE } from '../setup.js';
 import Layout from '../layouts/PageLayout.astro';
-import Hero from '../components/widgets/hero.astro';
+import Presentation from '../components/widgets/Presentation.astro';
+import Footer from '../components/widgets/Footer.astro';
+
+const meta = {
+	title: SITE.title,
+	description: SITE.description,
+	// canonical: getCanonical(getHomePermalink()),
+};
+
 ---
 
+
 <Layout title="Josa Vicente">
-	<Hero />
+	<Presentation />
 </Layout>
