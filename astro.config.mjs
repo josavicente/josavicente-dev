@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 import image from "@astrojs/image";
-import { SITE } from './src/setup.js';
+import { SITE } from './src/setup.mjs';
 
 import { remarkReadingTime } from './src/utils/frontmatter.js';
 

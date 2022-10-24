@@ -1,19 +1,20 @@
 ---
 
-import { SITE } from '../setup.js';
+import { SITE } from '../setup.mjs';
 import Layout from '../layouts/PageLayout.astro';
 import Presentation from '../components/widgets/Presentation.astro';
 import Footer from '../components/widgets/Footer.astro';
+import { getCanonical, getHomePermalink } from '../utils/permalinks.js';
 
 const meta = {
 	title: SITE.title,
 	description: SITE.description,
-	// canonical: getCanonical(getHomePermalink()),
+	canonical: getCanonical(getHomePermalink()),
 };
 
 ---
 
 
-<Layout title="Josa Vicente">
+<Layout {meta}>
 	<Presentation />
 </Layout>
