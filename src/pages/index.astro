@@ -3,8 +3,8 @@
 import { SITE } from '../setup.mjs';
 import Layout from '../layouts/PageLayout.astro';
 import Presentation from '../components/widgets/Presentation.astro';
-import Footer from '../components/widgets/Footer.astro';
 import { getCanonical, getHomePermalink } from '../utils/permalinks.js';
+import HighlightedPosts from '../components/blog/HighlightedPosts.astro';
 
 const meta = {
 	title: SITE.title,
@@ -17,4 +17,5 @@ const meta = {
 
 <Layout {meta}>
 	<Presentation />
+	<HighlightedPosts />
 </Layout>
