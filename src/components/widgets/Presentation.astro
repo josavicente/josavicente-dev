@@ -1,5 +1,6 @@
 ---
 import { Icon } from 'astro-icon';
+import Picture from '../../components/core/Picture.astro';
 ---
 <section>
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
@@ -15,7 +16,7 @@ import { Icon } from 'astro-icon';
                     >
                 </h1>
             </div>
-        </div>
+        
         <div class="text-center max-w-3xl mx-auto">
             <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
                 Software engineer for more than 15 years, 14 of which I have worked in consulting with SAP technology. Specialised in the hotel sector
@@ -47,5 +48,18 @@ import { Icon } from 'astro-icon';
                 <a class="btn text-white bg-gray-900 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-800 w-full" href="#features">Learn more</a>
             </div>
         </div>
+        <div>
+            <div class="relative mb-8 m-auto max-w-3xl">
+                <Picture
+                    src={import('../../assets/images/hero.jpg')}
+                    class="mx-auto rounded-md shadow-lg bg-gray-400 dark:bg-slate-700 w-full"
+                    widths={[400, 768]}
+                    sizes=" (max-width: 767px) 400px, 768px"
+                    alt="Hero Image"
+                    aspectRatio="16:9"
+                />
+            </div>
+        </div>
+    </div>        
     </div>
 </section>
