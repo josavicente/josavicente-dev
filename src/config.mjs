@@ -6,8 +6,8 @@ export const SITE = {
     title: 'Josa Vicente: Engineer Manager + Developer',
     description: 'Josa Vicente blog and profile site with Astro + TailwindCSS',
 
-    googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-	googleSiteVerificationId: 'aa',
+    googleAnalyticsId: 'G-L55P2CF5BM',
+	googleSiteVerificationId: 'uWgm332VIICMLTKxGMAmgjfO-p2CSMvfJq06Fya8QUg',
 };
 
 export const BLOG = {
