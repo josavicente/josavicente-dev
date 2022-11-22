@@ -5,7 +5,8 @@ import Layout from '../layouts/PageLayout.astro';
 import Presentation from '../components/widgets/Presentation.astro';
 import { getCanonical, getHomePermalink } from '../utils/permalinks.js';
 import HighlightedPosts from '../components/blog/HighlightedPosts.astro';
-import About from '../components/widgets/About.astro';
+import Experience from '../components/widgets/Experience.astro';
+import Aboutme from '../components/widgets/Aboutme.astro';
 
 const meta = {
 	title: SITE.title,
@@ -19,5 +20,6 @@ const meta = {
 <Layout {meta}>
 	<Presentation />
 	<HighlightedPosts />
-	<About />
+	<Aboutme />
+	<Experience />
 </Layout>

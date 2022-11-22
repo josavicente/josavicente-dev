@@ -1,0 +1,99 @@
+---
+const items = [
+	[
+		{
+			title: 'Producto > Proyecto',
+			description:
+				'En todas mis experiencias laborales, aunque haya trabajado en proyectos, mi acercamiento ha sido el de producto. Mima el producto que estás creando para el cliente, en lugar de tratarlo como un proyecto con fecha de caducidad.',
+		},
+		{
+			title: 'Feedback continuo',
+			description:
+				'En todos los proyectos he abogado por el feedback continuo del equipo para facilitar su crecimiento. El objetivo de todo manager debería ser que su equipo pueda optar a mejores posiciones en el futuro.',
+		},
+		{
+			title: 'Los frameworks son herramientas',
+			description:
+				'Es más importante conocer lo que ofrece un framework o un lenguaje que saber programar en el. Si lo conoces, sabrás entender en que situación es más o menos útil. Usar algo porque lo conocemos es la peor elección',
+		},
+		{
+			title: 'Nunca sabré suficiente',
+			description:
+				'No dejo de aprender, me gusta estar al día tanto en tecnologías backend, frontend, desarrollo móvil o prácticas DevOps.',
+		},
+	],
+	[
+		{
+			title: 'Empoderar al equipo',
+			description:
+				'Nadie mejor que el equipo para tomar las decisiones respecto a como desarrollar un producto. ',
+		},
+		{
+			title: 'Nada es inamovible',
+			description:
+				'En desarrollo de software hay muchos dogmas y se tiende a considerar que uno u otro es el mejor. Opino que cada proyecto requiere acercamientos distintos. Adaptabilidad al entorno, al producto y a tu cliente.',
+		},
+		{
+			title: 'Agilidad y Testing',
+			description:
+				'Mis experiencias más recientes me han hecho darme cuenta de la necesidad en el desarrollo de software de CI/CD. Recientemente descubrí el mundo DevOps y es algo que me fascina y en lo que me estoy formando.',
+		},
+		{
+			title: 'Mis actuales intereses',
+			description:
+				'Desarrollo Open-Source, Kotlin, Rust, React & Vue, entorno DevOps y herramientas.',
+		},
+	],
+];
+---
+
+<section class="scroll-mt-16" id="aboutme">
+	<div class="px-4 py-16 mx-auto max-w-6xl lg:px-8 lg:py-20 bg-primary-50 dark:bg-slate-800">
+		<div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-5xl md:mb-12">
+			<p class="text-base text-primary-600 dark:text-primary-200 font-semibold tracking-wide uppercase">Sobre mí</p>
+			<h2 class="text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading">
+				Conocerme un poco
+				<span
+					class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500 whitespace-nowrap"
+					>mejor</span>
+				
+			</h2>
+			<p class="max-w-3xl mx-auto sm:text-center text-xl text-gray-600 dark:text-slate-400">
+				Podría soltar aquí una parrafada para venderme, pero perfiero enumerar algunas de las cosas que se me dan 
+				bien gracias a los proyectos que he tenido la suerte de enfrentar en los últimos 15 años.
+			</p>
+		</div>
+		<div class="grid mx-auto space-y-6 md:grid-cols-2 md:space-y-0">
+			{
+				items.map((subitems) => (
+					<div class="space-y-8 sm:px-8">
+						{subitems.map(({ title, description }) => (
+							<div class="flex flex-row max-w-md">
+								<div class="mb-4 mr-4">
+									<div class="flex items-center justify-center w-12 h-12 rounded-full bg-primary-500">
+										<svg class="w-12 h-12 p-0.5" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+											<g fill="none" fill-rule="evenodd">
+												<rect class="fill-current text-primary-600" width="64" height="64" rx="32" />
+												<g stroke-linecap="square" stroke-width="2">
+													<path class="stroke-current text-white" d="M20.571 20.571h13.714v17.143H20.571z" />
+													<path
+														class="stroke-current text-primary-300"
+														d="M38.858 26.993l6.397 1.73-4.473 16.549-13.24-3.58"
+													/>
+												</g>
+											</g>
+										</svg>
+									</div>
+								</div>
+								<div>
+									<h3 class="mb-3 text-xl font-bold">{title}</h3>
+									<p>{description}</p>
+								</div>
+							</div>
+						))}
+					</div>
+				))
+			}
+		</div>
+	</div>
+</section>
