@@ -12,6 +12,7 @@ const trim = (str, ch) => {
 
 const trimSlash = (s) => trim(trim(s, '/'));
 const createPath = (...params) => '/' + params.filter((el) => !!el).join('/');
+const createPathAnchor = (...params) => '/#' +  params.filter((el) => !!el);
 
 const basePathname = trimSlash(SITE.basePathname);
 
@@ -40,6 +41,9 @@ export const getPermalink = (slug = '', type = 'page') => {
 			return createPath(basePathname, POST_BASE, _slug);
 
 		case 'page':
+			return createPath(basePathname, _slug);
+		case 'anchor':	
+			return createPathAnchor(basePathname, _slug);
 		default:
 			return createPath(basePathname, _slug);
 	}
