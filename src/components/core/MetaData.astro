@@ -1,5 +1,5 @@
 ---
-// import { GoogleAnalytics } from "@astrolib/analytics"
+import { GoogleAnalytics } from "@astrolib/analytics"
 import { getImage } from '@astrojs/image';
 import { getRelativeUrlByFilePath } from '../../utils/directories.js';
 
@@ -75,6 +75,6 @@ const image =
 {SITE.googleSiteVerificationId && <meta name="google-site-verification" content={SITE.googleSiteVerificationId} />}
 
 <!-- Google Analytics -->
-<!-- {SITE.googleAnalyticsId && <GoogleAnalytics id={String(SITE.googleAnalyticsId)} partytown={true} />} -->
+{SITE.googleAnalyticsId && <GoogleAnalytics id={String(SITE.googleAnalyticsId)} partytown={true} />}
 
 <ExtraMetaTags />
