@@ -1,6 +1,6 @@
 export const SITE = {
     name: 'Josa Vicente',
-    origin: 'https://josavicente.dev',
+    origin: 'https://www.josavicente.dev',
     basePathname: '/',
 
     title: 'Josa Vicente: Engineer Manager + Developer',
