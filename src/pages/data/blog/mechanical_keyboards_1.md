@@ -3,8 +3,8 @@ publishDate: "Nov 27 2022"
 title: "El mundo de los teclados mecánicos II"
 description: "En esta ocasión vamos a hablar de los distintos tipos de layouts que podemos encontrar."
 image: "~/assets/images/keyboards/keyboard_custom.jpg"
-category: "Keyboards"
-tags: [Keyboards, mechanical keyboards, custom]
+category: "Teclados"
+tags: [teclados, teclados mecánicos, custom]
 ---
 
 

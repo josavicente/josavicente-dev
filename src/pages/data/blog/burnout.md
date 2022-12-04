@@ -3,8 +3,8 @@ publishDate: "Nov 25 2022"
 title: "Del burnout se puede salir"
 description: "Esta es la primera parte de como una situación de burnout, mirada en perspectiva, es posible que haya sido lo peor que me ha pasado en mi carrera."
 image: "~/assets/images/burnout.jpg"
-category: "Culture"
-tags: [leadership, environment, management, toxic workplace]
+category: "Cultura de empresa"
+tags: [liderazgo, entorno, cultura, management, entorno tóxico]
 ---
 
 

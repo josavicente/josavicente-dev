@@ -1,10 +1,10 @@
 ---
-publishDate: "Nov 29 2022"
+publishDate: "Nov 26 2022"
 title: "He vidido un entorno toxico y he sobrevivido. Tú también puedes."
 description: "La segunda parte de mi burnout. En perspectiva es cuando ves la toxicidad de algunas conductas o situaciones que se consideraban normales en entornos laborales que he vivido."
 image: "~/assets/images/toxic_workplace.jpg"
-category: "Culture"
-tags: [leadership, environment, management, toxic workplace]
+category: "Cultura de empresa"
+tags: [liderazgo, entorno, cultura, management, entorno tóxico]
 ---
 
 
