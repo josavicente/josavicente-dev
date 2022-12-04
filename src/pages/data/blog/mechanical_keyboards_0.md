@@ -1,7 +1,7 @@
 ---
 publishDate: "Nov 28 2022"
 title: "El mundo de los teclados mecánicos I"
-description: "Primera parte para introducirse en el mundo de los teclados mecánicos"
+description: "Primera parte para introducirse en el mundo de los teclados mecánicos."
 image: "~/assets/images/keyboards/keyboard.jpg"
 category: "Teclados"
 tags: [teclados, teclados mecánicos, custom]

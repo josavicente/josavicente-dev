@@ -1,7 +1,7 @@
 ---
 publishDate: "Dec 4 2022"
 title: "Libro: The Manager Path"
-description: "The Manager Path es el libro que más me ha ayudado en mi camino de IC a Engineer Manager"
+description: "The Manager Path es el libro que más me ha ayudado en mi camino de IC a Engineer Manager."
 image: "~/assets/images/manager-path.jpg"
 category: "Libros"
 tags: [libro, management, liderazgo, recomendación]
