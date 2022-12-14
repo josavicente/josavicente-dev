@@ -36,8 +36,8 @@ Este tipo de toggles son de los más longevos, sirven para activar o desactivar 
 
 Estos toggles son los más longevos con diferencia, posiblemente permanentes. Son los más dinámicos. Por ejemplo el típico usuario premium. Son toggles que dan ciertos privilegios a usuarios concretos durante un periodo de tiempo largo.
 
-###Longevidad vs Dinamismo
-[](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/feature_toggles/toggle_types.png?raw=true)
+### Longevidad vs Dinamismo
+![](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/feature_toggles/toggle_types.png?raw=true)
 
 ## Y ahora lo interesante realmente, sus casos de uso.
 
