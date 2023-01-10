@@ -3,7 +3,7 @@ publishDate: "Dec 15 2022"
 title: "Feature Toggles"
 description: "Seguramente lo has usado muchísimas veces, quizá sin conocer el nombre como me ocurría a mí. Pero más allá de salvarte la vida en ocasiones, esta técnica tiene más ventajas."
 image: "~/assets/images/feature-toggle.jpg"
-category: "Cultura de empresa"
+category: "Integración continua"
 tags: [TBD, Programación XP, técnicas, agile, Integración continua]
 ---
 

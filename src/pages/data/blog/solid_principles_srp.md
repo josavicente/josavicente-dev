@@ -3,7 +3,7 @@ publishDate: "Jan 5 2023"
 title: "Principios SOLID II: Principio de responsabilidad única"
 description: "La S, correspondiente a Single Responsability Principle."
 image: "~/assets/images/swiss_knife.png"
-category: "Libros"
+category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, srp, responsabilidad única]
 ---
 
