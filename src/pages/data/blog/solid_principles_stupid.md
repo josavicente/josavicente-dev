@@ -4,7 +4,7 @@ title: "Principios SOLID I: Primero, no seas STUPID"
 description: "Primera parte de una serie de posts sobre los diferentes principios SOLID. Empezamos con sus principios antagonistas"
 image: "~/assets/images/solid.png"
 category: "Buenas prácticas"
-tags: [buenas prácticas, solid, programación, malas prácticas]
+tags: [buenas prácticas, solid, programación, malas prácticas, arquitectura]
 ---
 
 Esta es la primera de una serie de entradas sobre los principios SOLID. Mi idea es hacer una entrada por principio 
