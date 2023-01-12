@@ -2,9 +2,9 @@
 publishDate: "Jan 12 2023"
 title: "Principios SOLID V: Principio de segregación de interfaces"
 description: "La I, correspondiente al principio de segregación de interfaces. Esta me gusta porque es como yo, todo en su sitio y ordenado. Que no sobre nada."
-image: "~/assets/images/liskov.jpg"
+image: "~/assets/images/isp.jpg"
 category: "Buenas prácticas"
-tags: [buenas prácticas, solid, programación, liskov]
+tags: [buenas prácticas, solid, programación, segregación, interfaces, arquitectura]
 ---
 
 Establece que una clase no debe ser obligada a implementar interfaces que no utilizará. En otras palabras, una clase debe implementar solo las interfaces necesarias para su comportamiento específico.
