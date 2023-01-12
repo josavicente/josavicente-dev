@@ -7,13 +7,13 @@ category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, segregación, interfaces, arquitectura]
 ---
 
-Establece que una clase no debe ser obligada a implementar interfaces que no utilizará. En otras palabras, una clase debe implementar solo las interfaces necesarias para su comportamiento específico.
+El principio de segregación de interfaces establece que una clase no debe ser obligada a implementar métodos que no utilizará. En otras palabras, una clase debe implementar solo los métodos necesarios para su comportamiento específico.
 
 Traduciendolo al mundo real, debemos diseñar las interfaces pensando en quien las usará, sus clientes, no en implementaciones concretas que pudieran tener.
 
 Veámoslo con un ejemplo, como hasta ahora, seguimos con Pokemons.
 
-Tenemos una interfaz PokemonActions que define métodos para realizar acciones comunes a todos los Pokémon, como atacar, defenderse, etc. Además, se tiene una clase FlyingPokemon que representa a un Pokémon volador y otra clase ElectricPokemon que representa a un Pokémon eléctrico.
+Tenemos una interfaz PokemonActions que define métodos para realizar acciones comunes a todos los Pokemon, como atacar, defenderse, etc. Además, se tiene una clase FlyingPokemon que representa a un Pokemon volador y otra clase ElectricPokemon que representa a un Pokemon eléctrico.
 
 ```kotlin
 
