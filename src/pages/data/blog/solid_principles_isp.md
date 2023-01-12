@@ -55,7 +55,7 @@ class ElectricPokemon : PokemonActions {
 }
 ```
 
-En este ejemplo, la interfaz **PokemonActions** obliga a las clases **FlyingPokemon** y **ElectricPokemon** a implementar el método **fly()**, a pesar de que solo es relevante para los Pokemon voladores, y **electricShock()**, solo relevante para los Pokemon eléctricos. Por lo tanto, se viola el principio de segregación de interfaces ya que se obliga a las clases a implementar interfaces que no utilizarán.
+En este ejemplo, la interfaz **PokemonActions** obliga a las clases **FlyingPokemon** y **ElectricPokemon** a implementar el método **fly()**, a pesar de que solo es relevante para los Pokemon voladores, y **electricShock()**, solo relevante para los Pokemon eléctricos. Por lo tanto, se viola el principio de segregación de interfaces ya que se obliga a las clases a implementar métodos que no utilizarán.
 
 La forma correcta de implementarlo siguiendo el principio de segregación de interfaces:
 
