@@ -4,7 +4,7 @@ title: "Principios SOLID III: Abierto a extensión y cerrado a modificación"
 description: "La O, correspondiente a Open-Close Principle. Evita depender de implementaciones concretas."
 image: "~/assets/images/ocr.jpg"
 category: "Buenas prácticas"
-tags: [buenas prácticas, solid, programación, ocr]
+tags: [buenas prácticas, solid, programación, ocr, arquitectura]
 ---
 
 El software debería estar abierto a extensión y cerrado a modificación. Para ello, evitemos depende de implementaciones específicas. Es más sencillo con un ejemplo.
