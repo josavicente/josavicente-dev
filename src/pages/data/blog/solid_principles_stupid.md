@@ -5,6 +5,7 @@ description: "Primera parte de una serie de posts sobre los diferentes principio
 image: "~/assets/images/solid.png"
 category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, malas prácticas, arquitectura]
+canonical: https://josavicente.dev/solid_principles_stupid
 ---
 
 Esta es la primera de una serie de entradas sobre los principios SOLID. Mi idea es hacer una entrada por principio 

@@ -5,6 +5,7 @@ description: "Seguramente lo has usado muchísimas veces, quizá sin conocer el 
 image: "~/assets/images/feature-toggle.jpg"
 category: "Integración continua"
 tags: [TBD, Programación XP, técnicas, agile, Integración continua]
+canonical: https://josavicente.dev/feature_toggles
 ---
 
 Feature Toggles es una mecanismo que te permite en tiempo de ejecución tomar la decisión de ejecutar un código u otro. Se trata de una herramienta que ayuda a mantener un flujo de delivery constante y de integración de código continua (a partir de ahora CD/CI). 

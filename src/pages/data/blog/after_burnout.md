@@ -5,6 +5,7 @@ description: "Hay luz más allá del burnout. Depende de como sea tu nuevo entor
 image: "~/assets/images/after-burnout.jpg"
 category: "Cultura de empresa"
 tags: [liderazgo, entorno, cultura, management, entorno inclusivo, comunidad]
+canonical: https://josavicente.dev/after_burnout
 ---
 
 

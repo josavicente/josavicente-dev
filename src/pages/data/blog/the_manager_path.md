@@ -5,6 +5,7 @@ description: "The Manager Path es el libro que más me ha ayudado en mi camino d
 image: "~/assets/images/manager-path.jpg"
 category: "Libros"
 tags: [libro, management, liderazgo, recomendación]
+canonical: https://josavicente.dev/the_manager_path
 ---
 
 Llevo más de 7 años como Engineer Manager, aunque me he identificado como tal solo durante este último. Por dos motivos: 

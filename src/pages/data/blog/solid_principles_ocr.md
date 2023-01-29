@@ -5,6 +5,7 @@ description: "La O, correspondiente a Open-Close Principle. Evita depender de im
 image: "~/assets/images/ocr.jpg"
 category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, ocr, arquitectura]
+canonical: https://josavicente.dev/solid_principles_ocr
 ---
 
 El software debería estar abierto a extensión y cerrado a modificación. Para ello, evitemos depende de implementaciones específicas. Es más sencillo con un ejemplo.

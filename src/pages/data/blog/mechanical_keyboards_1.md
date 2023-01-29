@@ -5,6 +5,7 @@ description: "En esta ocasión vamos a hablar de los distintos tipos de layouts 
 image: "~/assets/images/keyboards/keyboard_custom.jpg"
 category: "Teclados"
 tags: [teclados, teclados mecánicos, custom]
+canonical: https://josavicente.dev/mechanical_keyboards_1
 ---
 
 

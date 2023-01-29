@@ -5,6 +5,7 @@ description: "La segunda parte de mi burnout. En perspectiva es cuando ves la to
 image: "~/assets/images/toxic_workplace.jpg"
 category: "Cultura de empresa"
 tags: [liderazgo, entorno, cultura, management, entorno tóxico]
+canonical: https://josavicente.dev/toxic_workplace
 ---
 
 

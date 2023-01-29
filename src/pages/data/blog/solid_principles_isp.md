@@ -5,6 +5,7 @@ description: "La I, correspondiente al principio de segregación de interfaces. 
 image: "~/assets/images/isp.jpg"
 category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, segregación, interfaces, arquitectura]
+canonical: https://josavicente.dev/solid_principles_isp
 ---
 
 El principio de segregación de interfaces establece que una clase no debe ser obligada a implementar métodos que no utilizará. En otras palabras, una clase debe implementar solo los métodos necesarios para su comportamiento específico.

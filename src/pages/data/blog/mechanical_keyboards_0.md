@@ -5,6 +5,7 @@ description: "Primera parte para introducirse en el mundo de los teclados mecán
 image: "~/assets/images/keyboards/keyboard.jpg"
 category: "Teclados"
 tags: [teclados, teclados mecánicos, custom]
+canonical: https://josavicente.dev/mechanical_keyboards_0
 ---
 
 

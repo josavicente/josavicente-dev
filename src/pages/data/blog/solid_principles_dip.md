@@ -5,6 +5,7 @@ description: "Finalmente la D, correspondiente al principio de inversión de dep
 image: "~/assets/images/dip.jpg"
 category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, inversión dependencias, dip, arquitectura]
+canonical: https://josavicente.dev/solid_principles_dip
 ---
 
 El principio de inversión de dependencias indica que las clases de un sistema deben depender de las abstracciones/interfaces y no de las implementaciones concretas. Esto significa que las clases no deben depender directamente de clases específicas, sino de interfaces o clases abstractas. Esto lo haremos inyectando dependencias en el constructor de la clase, pero estas dependencias serán interfaces o clases abstractas, no clases finales.

@@ -5,6 +5,7 @@ description: "Esta es la primera parte de como una situación de burnout, mirada
 image: "~/assets/images/burnout.jpg"
 category: "Cultura de empresa"
 tags: [liderazgo, entorno, cultura, management, entorno tóxico]
+canonical: https://josavicente.dev/burnout
 ---
 
 

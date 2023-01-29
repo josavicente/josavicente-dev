@@ -5,6 +5,7 @@ description: "La L, correspondiente al principio de sustitución de Liskov. Esta
 image: "~/assets/images/liskov.jpg"
 category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, liskov, arquitectura]
+canonical: https://josavicente.dev/solid_principles_liskov
 ---
 
 LSP o Liskov Substitution Principle es una definición particular de una relación de subtipificación, llamada tipificación (fuerte) del comportamiento, que fue introducido por Barbara Liskov en 1987 en una conferencia y reformulado junto a Jeannette Wing en 1994:

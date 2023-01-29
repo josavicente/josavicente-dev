@@ -5,6 +5,7 @@ description: "La S, correspondiente a Single Responsability Principle."
 image: "~/assets/images/swiss_knife.png"
 category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, srp, responsabilidad única, arquitectura]
+canonical: https://josavicente.dev/solid_principles_srp
 ---
 
 Seguimos con SOLID, en esta ocasión la **S** que corresponde al principio de responsabilidad única. Es posiblemente el más sencillo de identificar y también uno de los más sencillos de violar. Viene a decirnos que cada clase debe tener una única responsabilidad y que debe estar encapsulada en dicha clase. Por tanto cada clase debe tener un propósito específico que debemos identificar y no ser como una navaja suiza multifunción. Aquí el naming es importante para ser específicos.
