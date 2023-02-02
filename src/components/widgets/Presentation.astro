@@ -2,56 +2,63 @@
 import { Icon } from 'astro-icon';
 import Picture from '../../components/core/Picture.astro';
 ---
+
 <section>
-    <div class="max-w-6xl mx-auto px-4 sm:px-6">
-        <div class="py-12 md:py-20">
-            <div class="text-center">
-                <h1 class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">Hola! Soy Josa Vicente</h1>
-            </div>
-            <div class="text-center pb-10 md:pb-16">
-                <h1 class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500">Developer</span> &
-                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-secondary-500 to-primary-500 sm:whitespace-nowrap"
-                        >Engineer Manager</span
-                    >
-                </h1>
-            </div>
-            <div>
-                <div class="relative mb-8 m-auto max-w-3xl mt-8">
-                    <Picture
-                        src={import('../../assets/images/hero.png')}
-                        class="mx-auto rounded-md bg-white dark:bg-slate-900 w-full"
-                        widths={[400, 768]}
-                        sizes=" (max-width: 767px) 400px, 768px"
-                        alt="Hero Image"
-                        aspectRatio="16:9"
-                    />
-                </div>
-            </div>
-        <div class="text-center max-w-3xl mx-auto">
-            <p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
-                Llevo desde los 14 años programando, empecé con Turbo Pascal. Ahora, con 42 años
-                considero que saber programar el stack de moda no es suficiente. Unas buenas bases, conocimientos de arquitectura y testing,
-                unido a unas soft skills fuertes para trabajar en equipo son esenciales. 
-            </p>
-        </div>
-        <div class="max-w-none px-6 flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
-            <div class="flex w-full sm:w-auto">
-                <a
-                    class="btn text-white border border-primary-600 bg-primary-600 hover:bg-primary-800 hover:border-primary-800 sm:mb-0 w-full"
-                    href="mailto:jvicenpe@gmail.com"
-                    target="_blank"
-                    rel="noopener"
-                >
-                <Icon name="tabler:mail" class="w-5 h-5 mr-1 -ml-1.5" /> 
-                    Hablemos
-                </a>
-            </div>
-            <div class="flex w-full sm:w-auto">
-                <a class="btn text-white bg-gray-900 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-800 w-full" href="#aboutme">Sobre mí</a>
-            </div>
-        </div>
-        
-    </div>        
-    </div>
+	<div class="max-w-6xl mx-auto px-4 sm:px-6">
+		<div class="py-12 md:py-20">
+			<div class="text-center">
+				<h1 class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">
+					Hola! Soy Josa Vicente
+				</h1>
+			</div>
+			<div class="text-center pb-10 md:pb-16">
+				<h1 class="text-5xl md:text-[3.50rem] font-bold leading-tighter tracking-tighter mb-4 font-heading">
+					<span class="bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500">Developer</span
+					> &
+					<span
+						class="bg-clip-text text-transparent bg-gradient-to-r from-secondary-500 to-primary-500 sm:whitespace-nowrap"
+						>Engineer Manager</span
+					>
+				</h1>
+			</div>
+			<div>
+				<div class="relative mb-8 m-auto max-w-3xl mt-8">
+					<Picture
+						src={import('../../assets/images/hero.png')}
+						class="mx-auto rounded-md bg-white dark:bg-slate-900 w-full"
+						widths={[400, 768]}
+						sizes=" (max-width: 767px) 400px, 768px"
+						alt="Hero Image"
+						aspectRatio="16:9"
+					/>
+				</div>
+			</div>
+			<div class="text-center max-w-3xl mx-auto">
+				<p class="text-xl text-gray-600 mb-8 dark:text-slate-400">
+					Llevo desde los 14 años programando, empecé con Turbo Pascal. Ahora, con 42 años considero que saber programar
+					el stack de moda no es suficiente. Unas buenas bases, conocimientos de arquitectura y testing, unido a unas
+					soft skills fuertes para trabajar en equipo son esenciales.
+				</p>
+			</div>
+			<div class="max-w-none px-6 flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
+				<div class="flex w-full sm:w-auto">
+					<a
+						class="btn text-white border border-primary-600 bg-primary-600 hover:bg-primary-800 hover:border-primary-800 sm:mb-0 w-full"
+						href="mailto:jvicenpe@gmail.com"
+						target="_blank"
+						rel="noopener"
+					>
+						<Icon name="tabler:mail" class="w-5 h-5 mr-1 -ml-1.5" />
+						Hablemos
+					</a>
+				</div>
+				<div class="flex w-full sm:w-auto">
+					<a
+						class="btn text-white bg-gray-900 hover:bg-gray-700 dark:bg-gray-700 dark:hover:bg-gray-800 w-full"
+						href="#aboutme">Sobre mí</a
+					>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
