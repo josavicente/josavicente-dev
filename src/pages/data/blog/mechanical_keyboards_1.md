@@ -39,17 +39,17 @@ Los tamaños de layout más comunes son:
 - Tenkeyless (TKL): Tamaño completo sin teclado numérico
 ![TKL Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layoutTKL.jpg?raw=true)
 - 60% Compact:El más común en el hobbie. Personalmente es el que me parece estéticamente más bonito. Prescinde de las teclas de función, navegación, teclado numérico y flechas.
-![100% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layout60.jpg?raw=true)
+![60% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layout60.jpg?raw=true)
 Si bien son los tamaños más comunes, ni mucho menos son los únicos. Podéis encontrar teclados de:
 
 - 75%: Conocido como un 65% con teclas de función.
-![100% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layout70.jpg?raw=true)
+![75% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layout70.jpg?raw=true)
 - 65%: Si cogemos un 60% y le añadimos las flechas y teclas de navegación en un distribución compacta.
-![100% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layout65.jpg?raw=true)
+![65% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layout65.jpg?raw=true)
 - 40%: Se le quita a un 60% la fila de números y algunos modificadores. Las funcionalidades se obtienen a partir de capas programables.
-![100% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layout40.jpg?raw=true)
+![40% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layout40.jpg?raw=true)
 - 1800 Layout: Se trata de un 100% compactado.
-![100% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layout1800.jpg?raw=true)
+![1800 Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layout1800.jpg?raw=true)
 
 Si habéis llegado hasta aquí, os estaréis preguntando cómo se consigue en teclados compactos (menos de un 60%) todas las funcionalidades de teclados completos. Esto se consigue mediante la programación de capas, más adelante, cuando hablemos de las PCB o placas base tendremos que tener en cuenta su programabilidad, ya que de esta dependerá que podamos configurar a nuestro gusto el teclado.
 
@@ -58,13 +58,13 @@ En próximos posts entraremos en detalle, pero resumiendo, lo que logramos con l
 ### Otras distribuciones:
 
 - Ortholineal: se trata de una distribución a modo de cuadrícula. La teoría tras esta distribución es que permite llegar más fácilmente a todas las teclas con menos esfuerzo y desplazamiento de los dedos. Aunque no los he probado, requieren una curva de aprendizaje ya que nuestra memoria muscular no está acostumbrada.
-![100% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layoutOrto.jpg?raw=true)
+![Orto Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/layoutOrto.jpg?raw=true)
 
 - Split: teclados divididos, normalmente con cierta inclinación que pretenden ser más ergonómicos. El más atractivo es el Corne.
-![100% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/Split.jpg?raw=true)
+![Split Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/Split.jpg?raw=true)
 
 - Macropad: teclados adicionales al teclado principal, por ejemplo un numpad.
-![100% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/macropad.jpg?raw=true)
+![Macropad Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/macropad.jpg?raw=true)
 
 ### ANSI o ISO
 
@@ -75,7 +75,7 @@ En este aspecto, aquí hay poca elección, la verdad. Aquí directamente os dir�
 - Si programáis, los símbolos más usados están más accesibles.
 - A la hora de encontrar material, os será infinitamente más sencillo encontrar de distribución ANSI.
 - Las keycaps con ñ son muy difíciles de encontrar y las que hay son de una variedad ridícula por ahora.
-![100% Layout](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/AnsivsISO.jpg?raw=true)
+![ANSI vs ISO](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/keyboards/AnsivsISO.jpg?raw=true)
 Y hasta aquí los layouts, si tenéis alguna duda o queréis profundizar podéis escribirme. Os dejo con un video complementario con más información.
 
 [![IMAGE_ALT](https://img.youtube.com/vi/GxS30X_unjU/maxresdefault.jpg)](https://youtu.be/GxS30X_unjU)

@@ -1,0 +1,43 @@
+---
+publishDate: "Feb 10 2023"
+title: "Radical Candor: El Framework"
+description: "Radical Candor, el libro escrito por Kim Scott deberíalectura obligatoria para cualquiera que decida ser manager. En este primer post, explico en que consiste el framework."
+image: "~/assets/images/radical_candor.jpg"
+category: "Engineering Manager"
+tags: [ management, liderazgo, feedback, cultura, crecimiento, radical candor ]
+canonical: https://josavicente.dev/radical_candor
+---
+
+Radical Candor es un concepto creado por Kim Scott. Yo lo conocí a través de una charla que realizó y que hará un año vi por primera vez. De ahí, me hice con el libro y recientemente me lo he leído. Me ha gustado tanto que no solo lo recomiendo, sino que he decidido hacer varios posts sobre el mismo.
+
+En esta primera entrada voy a hablar sobre el framework en si. El libro se divide en dos partes. En la primera, Kim Scott explica el concepto de Radical Candor, como focalizarse en el crecimiento del equipo y que las cosas se hagan.  En la segunda, nos da consejos para aplicar todo lo explicado en la primera parte en tu día a día.
+
+El framework se basa en una disposición en cuadrantes. Algo que debemos tener en cuenta es que este cuadrante no es una forma de etiquetar a las personas, sino que es una brújula o guía para dar y recibir feedback. El objetivo como managers debemos precuparnos por las personas de forma sincera y honesta. Y por otro lado que seamos directos, aunque sea duro, para ayudar a la persona a mejorar.
+
+Estos 4 cuadrantes tienen los siguientes nombres:
+
+![Radical Candor](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/radical_candor_quadrant.png?raw=true)
+
+radical_candor_quadrant.png
+
+
+### Radical Candor
+Se trata de demostrar que te importa personalmente, tanto como para dar una opinión sincera y directa para hacer challenge a la persona. Es ser honesto, cercano y directo. Es el tipo de feedback que tiene una utilidad para el que lo recibe e incluso para el que lo da. Es el tipo de feedback que se debe dar en el día a día. Si dejamos pasar la oportunidad, estamos perdiendo una oportunidad de crecimiento para el que lo recibe y para nosotros mismos. Y es que, si no lo hacemos, no estamos siendo honestos con nosotros mismos.
+
+### Ruinous Empathy
+Es lo que ocurre cundo quieres evitar cualquier sentimiento a corto plazo de alguien, ya sea positivo o negativo, por tanto, no comunicas lo que piensas. Es un feedback no sincero, sin utilidad para quien lo recibe. Si, te estás preocupando por el bienestar de la persona, pero no estás siendo honesto con ella y no la estás desafiando directamente para mejorar. Por tanto, es un feedback que: 
+
+- Elogios que no son suficientemente específicos para ayudar a la persona a entender lo que ha hecho bien.
+- Críticas suavizadas, poco claras que no ayudan a la persona a entender lo que ha hecho mal.
+
+Para ejemplificarlo podrías tomar la situación, que a todos nos ha pasado, en la que estamos comiendo con alguien y tras acabar, tiene los dientes manchados con algún trozo de comida. En lugar de avisarle, no dices nada. Lo que provoca que pase toda la tarde con los dientes manchados exponiéndose a que le digan algo.
+
+### Obnoxious Aggressiveness
+Se podría traducir como agresión odiosa, también llamada honestidad brutal. Aquí estás desafiando a la persona, pero no te importa personalmente. Los elogios no parecen sinceros y las críticas son agresivas, no se hacen con amabilidad. Es decir, no se hace con el objetivo de ayudar a la persona a mejorar, sino con el objetivo de hacerle sentir mal. El tipo de personas que actuan de esta manera, usan la culpabilidad que generan en quien recibe el feedback, como motor para la mejora. Suele confundirse con Radical Candor. 
+
+### Manipulative Insincerity
+Aquí ni te preocupas ni desafias a la persona. Puede ser un elogio inespecífico o una crítica vaga. Es una estrategia manipuladora con el objetivo de conseguir algo, ya sea una ventaja estratégica o caer bien a la gente. Con este comportamiento me he topado varias veces, es traicionero, político y pasivo-agresivo. Suele darse en ambientes de trabajo tóxico. Si lo detectas huye.
+
+Os dejo la charla de Kim Scott por si la queréis ver.
+
+[![IMAGE_ALT](https://img.youtube.com/vi/yj9GLeNCgm4/maxresdefault.jpg)](https://youtu.be/yj9GLeNCgm4)
