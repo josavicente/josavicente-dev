@@ -1,10 +1,10 @@
 ---
-publishDate: "Feb 10 2023"
+publishDate: "Feb 09 2023"
 title: "Radical Candor: El Framework"
-description: "Radical Candor, el libro escrito por Kim Scott deberíalectura obligatoria para cualquiera que decida ser manager. En este primer post, explico en que consiste el framework."
+description: "Radical Candor, el libro escrito por Kim Scott debería ser lectura obligatoria para cualquiera que decida ser manager. En este primer post, explico en que consiste el framework."
 image: "~/assets/images/radical_candor.jpg"
 category: "Engineering Manager"
-tags: [ management, liderazgo, feedback, cultura, crecimiento, radical candor ]
+tags: [ management, liderazgo, feedback, cultura, crecimiento, radical candor, libro ]
 canonical: https://josavicente.dev/radical_candor
 ---
 
@@ -18,8 +18,6 @@ Estos 4 cuadrantes tienen los siguientes nombres:
 
 ![Radical Candor](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/radical_candor_quadrant.png?raw=true)
 
-radical_candor_quadrant.png
-
 
 ### Radical Candor
 Se trata de demostrar que te importa personalmente, tanto como para dar una opinión sincera y directa para hacer challenge a la persona. Es ser honesto, cercano y directo. Es el tipo de feedback que tiene una utilidad para el que lo recibe e incluso para el que lo da. Es el tipo de feedback que se debe dar en el día a día. Si dejamos pasar la oportunidad, estamos perdiendo una oportunidad de crecimiento para el que lo recibe y para nosotros mismos. Y es que, si no lo hacemos, no estamos siendo honestos con nosotros mismos.
@@ -32,11 +30,16 @@ Es lo que ocurre cundo quieres evitar cualquier sentimiento a corto plazo de alg
 
 Para ejemplificarlo podrías tomar la situación, que a todos nos ha pasado, en la que estamos comiendo con alguien y tras acabar, tiene los dientes manchados con algún trozo de comida. En lugar de avisarle, no dices nada. Lo que provoca que pase toda la tarde con los dientes manchados exponiéndose a que le digan algo.
 
+De esta manera, por no ser directo, no estás dando a la persona la oportunidad de mejorar.
+
 ### Obnoxious Aggressiveness
 Se podría traducir como agresión odiosa, también llamada honestidad brutal. Aquí estás desafiando a la persona, pero no te importa personalmente. Los elogios no parecen sinceros y las críticas son agresivas, no se hacen con amabilidad. Es decir, no se hace con el objetivo de ayudar a la persona a mejorar, sino con el objetivo de hacerle sentir mal. El tipo de personas que actuan de esta manera, usan la culpabilidad que generan en quien recibe el feedback, como motor para la mejora. Suele confundirse con Radical Candor. 
 
 ### Manipulative Insincerity
 Aquí ni te preocupas ni desafias a la persona. Puede ser un elogio inespecífico o una crítica vaga. Es una estrategia manipuladora con el objetivo de conseguir algo, ya sea una ventaja estratégica o caer bien a la gente. Con este comportamiento me he topado varias veces, es traicionero, político y pasivo-agresivo. Suele darse en ambientes de trabajo tóxico. Si lo detectas huye.
+
+> Radical Candor no es una excusa para ser un gilipollas y tratar mal a tu equipo. Si actuas como un gilipollas, seguirás siendo un gilipollas. Radical Candor se centra en preocuparte de forma honesta y sincera por tu equipo. A la vez que desafías a cada persona de tu equipo para que mejore y desarrolle todo su potencial.
+
 
 Os dejo la charla de Kim Scott por si la queréis ver.
 
