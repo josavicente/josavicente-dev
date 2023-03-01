@@ -16,10 +16,18 @@ const { post, url } = Astro.props;
 				de lectura
 			</p>
 			<h1
-				class="px-4 sm:px-6 max-w-3xl mx-auto text-center text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-8 font-heading"
+				class="px-4 sm:px-6 max-w-3xl mx-auto text-center text-4xl md:text-5xl font-bold leading-tighter tracking-tighter mb-4 font-heading"
 			>
 				{post.title}
 			</h1>
+			<div class="mx-auto text-center">
+				<SocialShare
+					url={post.canonical}
+					text={post.title}
+					class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600"
+				/>
+			</div>
+
 			<p
 				class="max-w-3xl mx-auto mt-4 mb-8 px-4 sm:px-6 text-xl md:text-2xl text-muted dark:text-slate-400 text-justify"
 			>
@@ -45,6 +53,7 @@ const { post, url } = Astro.props;
 		</div>
 		<div class="container mx-auto px-8 sm:px-6 max-w-3xl mt-8">
 			<PostTags tags={post.tags} class="mr-5" />
+			<span class="align-super font-bold text-gray-400 dark:text-slate-400">Share:</span>
 			<SocialShare
 				url={post.canonical}
 				text={post.title}
