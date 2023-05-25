@@ -1,6 +1,6 @@
 ---
 publishDate: "Dec 3 2022"
-title: "La luz después del burnout"
+title: "💡 La luz después del burnout"
 description: "Hay luz más allá del burnout. Depende de como sea tu nuevo entorno. Aquí mi experiencia."
 image: "~/assets/images/after-burnout.jpg"
 category: "Cultura de empresa"
