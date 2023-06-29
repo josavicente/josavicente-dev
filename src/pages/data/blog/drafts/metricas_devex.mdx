@@ -1,15 +1,15 @@
 ---
 publishDate: "Jul 3 2023"
-title: "📐 Métricas II: SPACE framework"
-description: "Cuatro métricas clave para medir la eficiencia del delivery de un equipo."
+title: "📐 Métricas II: DevEx framework"
+description: "Una nueva forma de medir la productividad de los equipos de desarrollo."
 image: "~/assets/images/space.png"
 category: "Engineering Teams"
 tags: [ métricas, DORA, SPACE, framework, DevEx, productividad ]
-canonical: https://josavicente.dev/metricas_DORA
+canonical: https://josavicente.dev/metricas_devex
 ---
 
 SPACE fue definido en un paper en marzo de 2021. Entre sus autores destaca Nicole Forsgren, co-autora de **[Accelerate](https://amzn.to/3CPacnR)**.
-Lo que diferencia SPACE de DORA es que va un paso más allá de las métricas y trata de dar una visión más matizada y completa de la productividad de equipos de desarrollo.
+Lo que diferencia SPACE de DORA es que va un paso más allá de las métricas y trata de dar una visión más matizada y completa de la productividad en equipos de desarrollo.
 
 Otra de los detalles de SPACE es que no solo valora que la productividad del equipo es necesaria para el delivery sino que profundiza
 en la necesidad del bienestar y la satisfacción de los desarrolladores. Es decir, satisfacción y productividad están 100% conectadas.
@@ -17,18 +17,7 @@ en la necesidad del bienestar y la satisfacción de los desarrolladores. Es deci
 Precisamente las fechas en las que se publicó evidencian este último aspecto, tras el covid-19 se vió claramente esta necesidad. El forzado experimento, por el que
 todos los equipos debieron pasar puso a prueba el concepto de productividad, así como proporcionó un escenario idoneo para re-evaluar la productividad y como la entendemos.
 
-El marco sobre el que lo hace es a través de 5 dimensiones:
-
-- 🫶 Satisfaction & Well-being
-- 🏁 Performance 
-- 🏃‍♂️ Activity 
-- 🗣️ Communication & Collaboration
-- ⏳ Efficiency & Flow
-
-que definen la productividad y lo hacen sobre tres niveles:
-- 👩 Individuo
-- 🎽 Equipo
-- 🧰 Sistema
+El objetivo de este framework es desmitificar una serie de ideas preconcebidas sobre la productividad.
 
 ## Mitos y falsas ideas sobre la productividad de los desarrolladores
 
@@ -38,7 +27,117 @@ que definen la productividad y lo hacen sobre tres niveles:
 - Las medidas sólo son útiles para los managers.
 - La productividad sólo tiene que ver con los sistemas y las herramientas de desarrollo.
 
+Para rebatir estos mitos, SPACE se basa en 5 dimensiones:
 
+- 🫶 Satisfaction & Well-being
+- 🏁 Performance 
+- 🏃‍♂️ Activity 
+- 🗣️ Communication & Collaboration
+- ⏳ Efficiency & Flow
+
+que definen la productividad y lo hacen sobre tres niveles:
+
+- 👩 Individuo
+- 🎽 Equipo
+- 🧰 Sistema
+
+Vayamos más al detalle.
+
+## 🫶 Satisfaction & Well-being
+
+“*La satisfacción* es cuán satisfechos se sienten los desarrolladores con su trabajo, equipo, herramientas o cultura; 
+y *el bienestar* es como de saludables y felices son y cómo esto afecta a su trabajo.”
+
+Para ello las métricas deben estar centradas en medir estos dos aspectos, suele ser útil usar encuestas:
+
+- Satisfacción del desarrollador en el equipo, el proyecto o la compañía. Si recomendaría trabajar en la misma o en el equipo del que forma parte.
+- Eficacia de los desarrolladores. Si los desarrolladores disponen de las herramientas y recursos que necesitan para realizar su trabajo.
+- Burnout causado por un estrés excesivo y/o sobrecarga de trabajo prolongada en el tiempo.
+
+## 🏁 Performance
+
+El concepto más difícil de medir y el más pelémico. Vincular contribuciones individuales directamente con los resultados es muy complejo. 
+Código de más calidad no significa aportar más valor al cliente, así como producir más código no necesariamente implica código de calidad. Así como contribuir en una feature concreta que 
+cumple la satisfacción del cliente no implica resultados mayores a nivel compañía.
+Centrarse en rendimiento individual es cuanto menos dudoso, teniendo en cuenta que el código no lo producen personas sino equipos. 
+
+Una aproximación más sana es medir resultados y no producción.
+
+- Calidad. Fiabilidad, ausencia de errores, estado continuo del servicio.
+
+- Impacto. Satisfacción del cliente, adopción y retención de clientes, uso de funciones, reducción de costes.
+
+## 🏃‍♂️ Activity 
+
+Medir la actividad de un desarrollador es relativamente sencillo si el sistema está preparado, pero el volumen medido tan solo
+debería usarse como guía. No de forma aislada para tomar decisiones sobre la productividad individual o de equipo. Muchas actividades 
+esenciales del día a día de un desarrollador son imposibles de medir como por ejemplo:
+
+- Reuniones de equipo
+- Brainstormings
+- Ayudar a miembros del equipo
+- Pair programming
+- Coaching
+
+entre otras.
+
+## 🗣️ Communication & Collaboration
+
+El desarrollo de software es un trabajo de equipo, como fluye la comunicación y como colaboran los miembros de un equipo
+es clave para la productividad del mismo. Además, este aspecto debe revisarse en conjunto con la actividad. La colaboración con el
+equipo o el trabajo colaborativo con otros miembros, afecta directamente al rendimiento individual. Esto no es negativo, todo lo contrario,
+pero a la hora de medir, debemos tener contexto y tener en cuenta unos aspectos vs los otros.
+
+Por otro lado, una buena colaboración agilizará otro tipo de tareas, por ejemplo, hacer pair programming, reduce la dedicación a code 
+reviews, ya que la propia sesión sirve como revisión. Esto aumentará la capacidad de entregar valor en menor tiempo.
+
+## ⏳ Efficiency & Flow
+
+Eficiencia y fluidez reflejan la capacidad de completar trabajo o avanzar en la tareas con las menores interrupciones o retrasos posibles. Esto es un
+reflejo de la sincronización del equipo y la cohesión del mismo así como de los procesos establecidos en el día a día, por ejemplo: stand-ups asíncronos que permiten
+reducir interrupciones y tener más tiempo de foco o agendas claras para las reuniones.
+
+Definir correctamente el value stream mapping de la entrega de valor desde la idea hasta la puesta en producción al cliente. Acotar las 
+perdidas de tiempo y las dependencias favorecerá la eficiencia. Las métricas DORA aportan en este ámbito.
+
+## Manos a la obra
+
+La clave es tomar varias métricas en conjunto de múltiples dimensiones. Los creadores recomiendan al menos 3 métricas y siempre de distintas
+dimensiones. Una buena combinación te dará información relevante, medir una única dimensión no te aportará la información necesaria para poder tomar
+decisiones relevantes.
+
+Otro detalle es que de este grupo de métricas, una de ellas sea una métrica que de información experimental, la percepción del equipo
+acerca de distintos aspectos es muy relevante ya que dará un contexto mayor en relación al resto de métricas. La percepción del equipo
+puede aportar datos mucho más relevantes que simples valores tomados del sistema.
+
+El tipo de métricas que usa una compañía da una percepción del tipo de compañía que es. Si se preocupa por la salud mental y bienestar
+de su equipo, medirá dimensiones y valores relacionados con el bienestar del equipo. Es importante mantener una tensión entre las métricas, 
+para equilibrar entre métricas potencialmente tóxicas individualmente, pero que en conjunto pueden darnos una lectura del estado del equipo.
+
+Por ejemplo, un equipo en el que "productividad = líneas de código" es muy diferente de un equipo en el que "productividad = líneas de código & calidad de la revisión del código & satisfacción del cliente". 
+En este caso, se ha mantenido una métrica (tóxica) sobre la productividad y el rendimiento, pero han puento en conjunto con otras que también valoran el trabajo en equipo y al usuario final.
+El simple hecho de añbadir estas dos métricas moldea el equipo en una dirección positiva. Con la madurez del equipo, esa métrica podría sustituirse
+por otra menos tóxica, como el número de commits.
+
+## Cuidado con...
+
+Demasiadas métricas son innecesarias, ni siquiera todas las dimensiones lo son. Cada contexto o compañía implicará la necesidad de unas dimensiones
+u otras.
+
+Una misma métrica pude tener muchas interpretaciones, por ejemplo, la retención se suele utilizar para medir la satisfacción de los desarrolladores, pero puede ser mucho más que eso, 
+puede ser el reflejo de unas bandas salariales bajas, la psoibilidad de carrera dentro de la empresa, las opciones de formación continua o un reflejo de la cultura de la empresa.
+
+También es importante identificar sesgos y tendencias. En el mundo tecnológico hay un claro sesgo en detrimento de género, raza o orientación sexual. Nos guste o no admitirlo esto es así y debemos
+luchar activamente por evitarlos. 
+
+Debemos tener en cuenta diferencias culturales y como estas puedan afectar a las métricas perceptivas. 
+
+## Conclusión
+
+SPACE trata de dar un marco más amplio de percepción sobre la productividad y como esta se ve influenciada por muchas dimensiones. Nos ayuda 
+a elegir conjuntos de métricas que creen un balance y permitan tener una percepción mayor de lo que ocurre en la compañía o equipo. SPACE plantea
+las métricas como el origen de un debate y analisis en los equipos y la productividad de los mismos. No hay blancos y negros, sino muchos matices de grises
+y SPACE es lo que trata de sacar a relucir.
 
 ## Recursos
 📚 **[Accelerate](https://amzn.to/3CPacnR)**
