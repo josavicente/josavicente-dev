@@ -1,23 +1,27 @@
 ---
-publishDate: "Jul 5 2023"
+publishDate: "Jul 10 2023"
 title: "📐 Métricas II: SPACE framework"
 description: "Un framework basado en 5 dimensiones que conecta la productividad con el bienestar del equipo."
-image: "~/assets/images/space.png"
+image: "~/assets/images/Female-Developer.jpg"
 category: "Engineering Teams"
 tags: [ métricas, DORA, SPACE, framework, DevEx, productividad ]
 canonical: https://josavicente.dev/metricas_space
 ---
 
+
+
 SPACE fue definido en un paper en marzo de 2021. Entre sus autores destaca Nicole Forsgren, co-autora de **[Accelerate](https://amzn.to/3CPacnR)**.
 Lo que diferencia SPACE de DORA es que va un paso más allá de las métricas y trata de dar una visión más matizada y completa de la productividad en equipos de desarrollo.
 
-Otra de los detalles de SPACE es que no solo valora que la productividad del equipo es necesaria para el delivery sino que profundiza
+Otra de los detalles de SPACE es que no solo valora que la productividad del equipo necesaria para el delivery sino que profundiza
 en la necesidad del bienestar y la satisfacción de los desarrolladores. Es decir, satisfacción y productividad están 100% conectadas.
 
 Precisamente las fechas en las que se publicó evidencian este último aspecto, tras el covid-19 se vió claramente esta necesidad. El forzado experimento, por el que
-todos los equipos debieron pasar puso a prueba el concepto de productividad, así como proporcionó un escenario idoneo para re-evaluar la productividad y como la entendemos.
+todos los equipos debieron pasar, puso a prueba el concepto de productividad, así como proporcionó un escenario idoneo para re-evaluar la productividad y como la entendemos.
 
 El objetivo de este framework es desmitificar una serie de ideas preconcebidas sobre la productividad.
+
+![SPACE meaning](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/space.png?raw=true)
 
 ## Mitos y falsas ideas sobre la productividad de los desarrolladores
 
@@ -27,6 +31,8 @@ El objetivo de este framework es desmitificar una serie de ideas preconcebidas s
 - Las medidas sólo son útiles para los managers.
 - La productividad sólo tiene que ver con los sistemas y las herramientas de desarrollo.
 
+## Dimensiones
+
 Para rebatir estos mitos, SPACE se basa en 5 dimensiones:
 
 - 🫶 Satisfaction & Well-being
@@ -34,6 +40,8 @@ Para rebatir estos mitos, SPACE se basa en 5 dimensiones:
 - 🏃‍♂️ Activity 
 - 🗣️ Communication & Collaboration
 - ⏳ Efficiency & Flow
+
+## Niveles 
 
 que definen la productividad y lo hacen sobre tres niveles:
 
@@ -48,18 +56,19 @@ Vayamos más al detalle.
 “*La satisfacción* es cuán satisfechos se sienten los desarrolladores con su trabajo, equipo, herramientas o cultura; 
 y *el bienestar* es como de saludables y felices son y cómo esto afecta a su trabajo.”
 
-Para ello las métricas deben estar centradas en medir estos dos aspectos, suele ser útil usar encuestas:
+Para ello las métricas deben estar centradas en medir estos dos aspectos, suele ser útil usar encuestas para detectar:
 
-- Satisfacción del desarrollador en el equipo, el proyecto o la compañía. Si recomendaría trabajar en la misma o en el equipo del que forma parte.
+- Satisfacción del desarrollador en el equipo, el proyecto o la compañía. Si recomendaría trabajar en la empresa o en el equipo del que forma parte.
 - Eficacia de los desarrolladores. Si los desarrolladores disponen de las herramientas y recursos que necesitan para realizar su trabajo.
 - Burnout causado por un estrés excesivo y/o sobrecarga de trabajo prolongada en el tiempo.
 
 ## 🏁 Performance
 
 El concepto más difícil de medir y el más pelémico. Vincular contribuciones individuales directamente con los resultados es muy complejo. 
-Código de más calidad no significa aportar más valor al cliente, así como producir más código no necesariamente implica código de calidad. Así como contribuir en una feature concreta que 
-cumple la satisfacción del cliente no implica resultados mayores a nivel compañía.
-Centrarse en rendimiento individual es cuanto menos dudoso, teniendo en cuenta que el código no lo producen personas sino equipos. 
+Código de más calidad no significa aportar más valor al cliente, así como producir más código no necesariamente implica código de calidad. Por otro lado, contribuir en 
+una feature concreta que cumple la satisfacción del cliente no implica resultados mayores a nivel compañía.
+Centrarse en rendimiento individual es cuanto menos dudoso, teniendo en cuenta que el código no lo producen personas sino equipos. Además, un desarrollador realiza mucho trabajo invisible,
+más allá de picar código.
 
 Una aproximación más sana es medir resultados y no producción.
 
@@ -100,7 +109,12 @@ reducir interrupciones y tener más tiempo de foco o agendas claras para las reu
 Definir correctamente el value stream mapping de la entrega de valor desde la idea hasta la puesta en producción al cliente. Acotar las 
 perdidas de tiempo y las dependencias favorecerá la eficiencia. Las métricas DORA aportan en este ámbito.
 
-## Manos a la obra
+Un ejemplo de las 5 dimensiones sobre los 3 niveles.
+
+![SPACE framework example](https://github.com/josavicente/josavicente-dev/blob/main/src/assets/images/metrics_example.jpg?raw=true)
+
+
+## 👷‍♀️ Manos a la obra
 
 La clave es tomar varias métricas en conjunto de múltiples dimensiones. Los creadores recomiendan al menos 3 métricas y siempre de distintas
 dimensiones. Una buena combinación te dará información relevante, medir una única dimensión no te aportará la información necesaria para poder tomar
@@ -119,7 +133,7 @@ En este caso, se ha mantenido una métrica (tóxica) sobre la productividad y el
 El simple hecho de añbadir estas dos métricas moldea el equipo en una dirección positiva. Con la madurez del equipo, esa métrica podría sustituirse
 por otra menos tóxica, como el número de commits.
 
-## Cuidado con...
+## ⚠️ Cuidado con...
 
 Demasiadas métricas son innecesarias, ni siquiera todas las dimensiones lo son. Cada contexto o compañía implicará la necesidad de unas dimensiones
 u otras.
@@ -132,18 +146,21 @@ luchar activamente por evitarlos.
 
 Debemos tener en cuenta diferencias culturales y como estas puedan afectar a las métricas perceptivas. 
 
-## Conclusión
+## 🧠 Conclusión
 
 SPACE trata de dar un marco más amplio de percepción sobre la productividad y como esta se ve influenciada por muchas dimensiones. Nos ayuda 
 a elegir conjuntos de métricas que creen un balance y permitan tener una percepción mayor de lo que ocurre en la compañía o equipo. SPACE plantea
 las métricas como el origen de un debate y analisis en los equipos y la productividad de los mismos. No hay blancos y negros, sino muchos matices de grises
 y SPACE es lo que trata de sacar a relucir.
-## Recursos
+
+## 📖 Recursos
+
 📚 **[Accelerate](https://amzn.to/3CPacnR)**
 
 📚 **[Team Topologies: Organizing Business and Technology Teams for Fast Flow](https://amzn.to/3NQI4qK)**
 
 📚 **[The Phoenix Project](https://amzn.to/3CNtIBh)**
 
-📑 **[24 Key Capabilities to Drive Improvement in Software Delivery](https://itrevolution.com/articles/24-key-capabilities-to-drive-improvement-in-software-delivery/)**
+📑 **[SPACE Paper](https://queue.acm.org/detail.cfm?id=3454124)**
 
+<a href="https://www.vecteezy.com/free-vector/female-developer">Imagen de cabecera by Vecteezy</a>
