@@ -16,20 +16,29 @@ const image = await findImage(post.image);
 		<div
 			class="relative h-0 pb-[56.25%] md:pb-[75%] md:h-80 lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg"
 		>
-			<Picture
+			<!-- <Picture
 				src={image}
 				class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
-				widths={[400, 900]}
+				widths={[900, 900]}
 				sizes="(max-width: 900px) 400px, 900px"
 				alt={post.title}
-				aspectRatio="16:9"
+				aspectRatio="1:1"
+			/> -->
+			<Picture
+				src={image}
+				class="absolute inset-0 w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+				widths={[900, 900]}
+				sizes="(max-width: 900px) 400px, 900px"
+				alt={post.title}
+				aspectRatio="1:1"
 			/>
 		</div>
-	</a>
-	<div>
-		<header>
-			<h2 class="text-xl sm:text-2xl font-bold leading-snug mb-2 font-heading">
-				<a
+	</a><div>
+		<a class="relative block group" href={getPermalink(post.slug, 'post')}> </a><header>
+			<a class="relative block group" href={getPermalink(post.slug, 'post')}> </a><h2
+				class="text-xl sm:text-2xl font-bold leading-snug mb-2 font-heading"
+			>
+				<a class="relative block group" href={getPermalink(post.slug, 'post')}> </a><a
 					class="hover:text-primary-600 underline underline-offset-4 decoration-1 decoration-dotted transition ease-in duration-200"
 					href={getPermalink(post.slug, 'post')}
 				>

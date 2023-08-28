@@ -2,7 +2,7 @@
 publishDate: "Jan 11 2023"
 title: "Principios SOLID IV: Principio de sustitución de Liskov"
 description: "La L, correspondiente al principio de sustitución de Liskov. Establece cual sería un buen diseño de herencia entre clases."
-image: "~/assets/images/liskov.jpg"
+image: "~/assets/images/solid/solid-3.jpg"
 category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, liskov, arquitectura]
 canonical: https://josavicente.dev/solid_principles_liskov

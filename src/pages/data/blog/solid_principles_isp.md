@@ -2,7 +2,7 @@
 publishDate: "Jan 12 2023"
 title: "Principios SOLID V: Principio de segregación de interfaces"
 description: "La I, correspondiente al principio de segregación de interfaces. Esta me gusta porque es como yo, todo en su sitio y ordenado. Que no sobre nada."
-image: "~/assets/images/isp.jpg"
+image: "~/assets/images/solid/solid-4.jpg"
 category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, segregación, interfaces, arquitectura]
 canonical: https://josavicente.dev/solid_principles_isp

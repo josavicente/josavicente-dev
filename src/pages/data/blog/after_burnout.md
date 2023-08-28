@@ -2,7 +2,7 @@
 publishDate: "Dec 3 2022"
 title: "💡 La luz después del burnout"
 description: "Hay luz más allá del burnout. Depende de como sea tu nuevo entorno. Aquí mi experiencia."
-image: "~/assets/images/after-burnout.jpg"
+image: "~/assets/images/burnout/burnout-2.jpg"
 category: "Cultura de empresa"
 tags: [liderazgo, entorno, cultura, management, entorno inclusivo, comunidad]
 canonical: https://josavicente.dev/after_burnout

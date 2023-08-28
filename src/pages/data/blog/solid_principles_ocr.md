@@ -2,7 +2,7 @@
 publishDate: "Jan 10 2023"
 title: "Principios SOLID III: Abierto a extensión y cerrado a modificación"
 description: "La O, correspondiente a Open-Close Principle. Evita depender de implementaciones concretas."
-image: "~/assets/images/ocr.jpg"
+image: "~/assets/images/solid/solid-2.jpg"
 category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, ocr, arquitectura]
 canonical: https://josavicente.dev/solid_principles_ocr

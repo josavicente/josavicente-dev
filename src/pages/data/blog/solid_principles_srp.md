@@ -2,7 +2,7 @@
 publishDate: "Jan 5 2023"
 title: "Principios SOLID II: Principio de responsabilidad única"
 description: "La S, correspondiente a Single Responsability Principle."
-image: "~/assets/images/swiss_knife.png"
+image: "~/assets/images/solid/solid-1.jpg"
 category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, srp, responsabilidad única, arquitectura]
 canonical: https://josavicente.dev/solid_principles_srp

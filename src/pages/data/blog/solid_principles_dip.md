@@ -2,7 +2,7 @@
 publishDate: "Jan 15 2023"
 title: "Principios SOLID VI: Principio de inversión de dependencias"
 description: "Finalmente la D, correspondiente al principio de inversión de dependencias. Depende de las abstracciones, no de las implementaciones concretas."
-image: "~/assets/images/dip.jpg"
+image: "~/assets/images/solid/solid-5.jpg"
 category: "Buenas prácticas"
 tags: [buenas prácticas, solid, programación, inversión dependencias, dip, arquitectura]
 canonical: https://josavicente.dev/solid_principles_dip

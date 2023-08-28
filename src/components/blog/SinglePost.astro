@@ -38,10 +38,10 @@ const { post, url } = Astro.props;
 					<Picture
 						src={post.image}
 						class="max-w-full lg:max-w-6xl mx-auto mt-4 mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
-						widths={[400, 900]}
+						widths={[400, 750]}
 						sizes="(max-width: 900px) 400px, 900px"
 						alt={post.description}
-						aspectRatio="16:9"
+						aspectRatio="1:1"
 					/>
 				)
 			}
