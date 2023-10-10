@@ -5,7 +5,7 @@ import { findPostsByIds } from '../../utils/posts.js';
 import { findImage } from '../../utils/images.js';
 import { getPermalink } from '../../utils/permalinks.js';
 
-const ids = ['stabb_framework', 'liderazgo_estrategico', 'metricas_devex', 'metricas_space'];
+const ids = ['shape_your_manager_part_one', 'stabb_framework', 'liderazgo_estrategico', 'metricas_devex'];
 
 const items = await Promise.all(
 	(await findPostsByIds(ids)).map(async (item) => ({ ...item, image: await findImage(item.image) }))
