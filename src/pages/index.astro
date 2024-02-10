@@ -1,5 +1,4 @@
 ---
-
 import { SITE } from '../config.mjs';
 import Layout from '../layouts/PageLayout.astro';
 import Presentation from '../components/widgets/Presentation.astro';
@@ -13,13 +12,11 @@ const meta = {
 	description: SITE.description,
 	canonical: getCanonical(getHomePermalink()),
 };
-
 ---
-
 
 <Layout {meta}>
 	<Presentation />
-	<HighlightedPosts />
+	<!-- <HighlightedPosts /> -->
 	<Aboutme />
 	<Experience />
 </Layout>
