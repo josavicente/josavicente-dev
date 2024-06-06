@@ -54,7 +54,24 @@ import Picture from '../../components/core/Picture.astro';
 					</a>
 				</div> -->
 				<div class="flex w-full sm:w-auto">
-					<a
+					<div id="custom-substack-embed"></div>
+
+					<script>
+						window.CustomSubstackWidget = {
+							substackUrl: 'josavicente.substack.com',
+							placeholder: 'example@gmail.com',
+							buttonText: 'Mi Newsletter',
+							theme: 'custom',
+							colors: {
+								primary: '#4F46E5',
+								input: '#FFFFFF',
+								email: '#000000',
+								text: '#FFFFFF',
+							},
+						};
+					</script>
+					<script src="https://substackapi.com/widget.js" async></script>
+					<!-- <a
 						class="btn text-white border border-primary-600 bg-primary-600 hover:bg-primary-800 hover:border-primary-800 sm:mb-0 w-full"
 						href="https://josavicente.substack.com"
 						target="_blank"
@@ -62,7 +79,7 @@ import Picture from '../../components/core/Picture.astro';
 					>
 						<Icon name="tabler:news" class="w-5 h-5 mr-1 -ml-1.5" />
 						Newsletter
-					</a>
+					</a> -->
 				</div>
 				<div class="flex w-full sm:w-auto">
 					<a
